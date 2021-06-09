@@ -1,0 +1,88 @@
+/*global*/
+
+*{
+
+    margin:0;
+}
+
+body{
+
+    font-family: 'Mate SC', serif;
+
+}
+p{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height:2;
+
+}
+
+img{
+
+    max-width:100%;
+}
+
+/*utilities*/
+.center{
+
+    text-align: center;
+}
+
+/*header*/
+
+
+
+
+.site-header{
+
+
+    background-color: rgb(235, 211, 0);
+    color:black;
+    height:150px;
+
+
+}
+
+.site-header h1{
+    color:black;
+    font-size: 60px;
+    text-align:center;
+    text-transform:uppercase;
+    word-spacing:10px;
+    letter-spacing:15px;
+    font-weight:bold;
+
+}
+
+
+.site-header h2{
+
+    color:hotpink;
+    font-size:40px;
+    text-align:center;
+    text-decoration:none;
+    text-shadow:2px 1px black;
+    font-weight:lighter;
+    
+}
+
+
+/*main*/
+
+.img-container{
+
+
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+
+}
+
+.img-container img{
+
+    border-radius: 50%;
+    border: 5px solid rgb(77, 74, 74);
+    padding:5px;
+}
